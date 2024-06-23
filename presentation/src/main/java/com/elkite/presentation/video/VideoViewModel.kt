@@ -13,6 +13,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 
+///This ViewModel is responsible for fetching and providing the list of videos to the VideoScreen
 @HiltViewModel
 class VideoViewModel @Inject constructor(
     private val videoRepository: VideoRepository
